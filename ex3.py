@@ -188,10 +188,10 @@ while run:
             txt = 'Input your Name and Age!!'
             htext = FONT.render(txt, True, (255,0,0))        
         if bank== 'YES':
-            txt = 'Hello ' + str(input_box1.text) + ' ' + str(input_box2.text) + ' ! You are ' + str(input_box3.text) + ' years old.'
+            txt = 'Hello ' + str(input_box1.text) + ' ' + str(input_box2.text) + '  '+' ! You are ' + str(input_box3.text) + ' years old.'
             htext = FONT.render(txt, True, (0,0,0))
         if bank== 'sus':
-            txt = ' Hello Mr ' +str(input_box2.text) + ' ! You are ' + str(input_box3.text) + ' years old.'
+            txt = ' Hello Mr ' +str(input_box2.text) + '  '+ ' ! You are ' + str(input_box3.text) + ' years old.'
             htext = FONT.render(txt, True, (0,0,0))
         if bank== 'sad':
             txt =  '  You are ' + str(input_box3.text) + ' years old.'
