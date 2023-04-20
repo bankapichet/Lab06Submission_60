@@ -37,7 +37,7 @@ while(run):
         btn.y-=0.1
     if bank=='S':
         btn.y+=0.1
-    if bank=='P':
+    if bank=='U':
         pass
     
     btn.draw(screen)
@@ -48,7 +48,7 @@ while(run):
         if event.type == pg.QUIT:
             pg.quit()
         if event.type == pg.KEYUP:
-            bank= 'P'
+            bank= 'U'
 
         elif event.type == pg.KEYDOWN and  event.key == pg.K_d: #ปุ่มถูกกดลงและเป็นปุ่ม D
             bank='D'
