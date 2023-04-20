@@ -136,7 +136,7 @@ bank=''
 htext = FONT.render('', True, (0,0,0))
 input_box1 = InputBox(300, 100, 140, 32) # สร้าง InputBox1
 input_box2 = InputBox(300, 200, 140, 32) # สร้าง InputBox2
-input_box3 = InputBoxnum(300,300,140,32) # สร้าง InputBox2
+input_box3 = InputBoxnum(300,300,140,32) # สร้าง InputBox3
 
 input_boxes = [input_box1, input_box2,input_box3] # เก็บ InputBox ไว้ใน list เพื่อที่จะสามารถนำไปเรียกใช้ได้ง่าย
 run = True
